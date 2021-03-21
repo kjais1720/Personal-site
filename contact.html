@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="contactme">
+        <li><strong>Address : </strong>1077, Saidnagar, laheriasarai, Darbhanga, Bihar.</li>
+        <li><strong>email-id : </strong>kjais2000@gmail.com</li>
+        <li><strong>Phone no. : </strong>6202321953</li>
+        <li><strong>Facebook : </strong> <a href="https://www.facebook.com/krituraj.anand/" target="blank"> Click here!</a></li>
+        <li><strong>Twitter : </strong> <a href="https://www.twitter.com/kjais1720/" target="blank"> Click here!</a></li>
+    </ul>
+    <hr>
+    <h3>Send me a message!!</h3>
+    <form id="feedback" action="index.html" >
+        <table>
+            <tr>
+                <td>Type the message</td>
+                <td><textarea name="message" id="message" cols="30" rows="10">Type your message!!</textarea></td>
+            </tr>
+            <tr>
+                <td>Your e-mail id</td>
+                <td><input name="email" id="email" type="email"></td>
+            </tr>
+            <tr>
+                <td>Your Contact no.</td>
+                <td><input name="number" id="number" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Social site</td>
+                <td><input list="social">
+                    <datalist id="social">
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Reddit">Reddit</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Do you wish to recieve my newsletters?</td>
+                <td><label>Yes</label><input name="newsletters" type="radio" value="Yes">
+                    <label>No</label><input name="newsletters" type="radio" value="no">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

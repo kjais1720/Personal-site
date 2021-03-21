@@ -1,0 +1,128 @@
+
+body{
+    background-color: #98b4a6;
+}
+
+
+h1{
+    color: teal;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h2{
+    text-align: center;
+    color: #2d6868;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+    border-width: 5px;
+    border-color: grey;
+    width:15%;
+    border-style:dotted none none;
+}
+
+input{
+    border-radius: 1cm;
+    border-style: dashed;
+    border-width: 2px;
+    background-color: #98b4a6;
+}
+strong{
+    size: 10px;
+    color: #1b292c;
+}
+
+textarea{
+    background-color: #98b4a6;
+    
+    border-style: dashed;
+    border-width: 30%;
+    text-align: center;
+}
+th{
+    background-color: black;
+}
+td,th{
+    border-radius:1cm;
+    
+}
+tr{
+    background-color: #64868e;
+}
+
+tbody{
+    background-color: #dde7e9;
+    color:black;
+}
+thead{
+    background-color: black;
+    color:white;
+}
+
+/********************ID Selectors************************/
+
+
+#content{
+    padding: 5px;
+    border-radius: 1cm;
+    background-color: #98b4a6;
+    
+}
+
+#intro{
+    
+    background-color: #aed3ae;
+}
+
+#overlay{
+    width: 80%;
+    text-align: center;
+    border-radius: 1cm;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#Krituraj-image:hover{
+    background-color: goldenrod;
+}
+#title{
+    background-color:#98b4a6 ;
+    text-align: center;
+    border-radius: 1cm;
+}
+#worktable{
+    align-items: center;
+}
+#work, #skills{
+    
+    border-spacing: 10px;
+    text-align: center;
+    border-radius: 1cm;
+    display:flexbox;
+    text-align: center;
+    border: 5px;
+    
+}
+
+#work tr:nth-child(even), #skills tr:nth-child(even){
+    background-color: #aed3ae;
+}
+a{  
+    background-color: #64868e;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #111111;
+    color: rgb(3, 3, 3);
+    padding: 14px 25px;
+    text-align: center;
+    
+    display: inline-block;
+    position:sticky;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+a:hover{
+    background-color: goldenrod;
+    color: red;
+}
